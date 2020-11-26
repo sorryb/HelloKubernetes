@@ -1,0 +1,15 @@
+label:
+  name: hellokubernetes
+
+container:
+  name: hello-kubernetes
+  pullPolicy: IfNotPresent
+  image: hello.kubernetes
+  tag: v1.0
+  port: 80
+
+replicas: 1
+
+service:
+  port: 8888
+  type: ClusterIP
