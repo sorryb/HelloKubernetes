@@ -1,6 +1,6 @@
 using System;
 
-namespace HelloAKS
+namespace HelloKubernetes
 {
     public class WeatherForecast
     {
